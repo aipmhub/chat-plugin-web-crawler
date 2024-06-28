@@ -14,15 +14,15 @@ const themeConfig = {
       text: 'Github',
     },
     {
-      link: 'https://github.com/lobehub/lobe-chat',
-      text: 'Try it on LobeChat',
+      link: 'https://github.com/aipmhub/aipm-chat',
+      text: 'Try it on AiPMChat',
       type: 'primary',
     },
   ],
-  footer: 'Made with 🤯 by LobeHub',
+  footer: 'Made with 🤯 by AiPMHub',
   name: 'Web Crawler',
   socialLinks: {
-    discord: 'https://discord.gg/AYFPHvv2jT',
+    discord: 'https://discord.gg/sYB5zSyD',
     github: homepage,
   },
 };
@@ -43,5 +43,5 @@ export default defineConfig({
   }`,
   ],
   themeConfig,
-  title: 'Web Crawler - Lobe Chat Plugin',
+  title: 'Web Crawler - AiPM Chat Plugin',
 });
