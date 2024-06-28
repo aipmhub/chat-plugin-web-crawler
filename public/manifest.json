@@ -1,9 +1,9 @@
 {
-  "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
+  "$schema": "../node_modules/@aipmorg/chat-plugin-sdk/schema.json",
   "api": [
     {
       "name": "getWebsiteContent",
-      "url": "https://web-crawler.chat-plugin.lobehub.com/api/v1",
+      "url": "https://chat-plugin-web-crawler.theforage.cn/api/v1",
       "description": "提取网页内容",
       "parameters": {
         "properties": {
@@ -19,8 +19,8 @@
   ],
   "author": "LobeHub",
   "createAt": "2023-08-17",
-  "homepage": "https://github.com/lobehub/chat-plugin-web-crawler",
-  "identifier": "website-crawler",
+  "homepage": "https://github.com/aipmhub/chat-plugin-web-crawler",
+  "identifier": "website_crawler",
   "meta": {
     "avatar": "🕸",
     "tags": ["web", "content-crawler"],

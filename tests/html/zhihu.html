@@ -96,8 +96,8 @@
         'object' == typeof exports && 'undefined' != typeof module
           ? t(exports)
           : 'function' == typeof define && define.amd
-          ? define(['exports'], t)
-          : t(((e = e || self).webReporter = {}));
+            ? define(['exports'], t)
+            : t(((e = e || self).webReporter = {}));
       })(this, function (e) {
         'use strict';
         var t = {},
